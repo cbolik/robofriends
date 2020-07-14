@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "tachyons";
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import App from "./containers/App";
+
+//
+// GitHub repo of Andrei's reference project: https://github.com/aneagoie/robofriends
+// 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
